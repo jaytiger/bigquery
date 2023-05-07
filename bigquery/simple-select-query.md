@@ -1,4 +1,4 @@
-# Page 1
+# Simple SELECT Query
 
 ```sql
 SELECT station_id, name
