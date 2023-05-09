@@ -5,3 +5,4 @@
   * [Legacy SQL vs Standard SQL](bigquery/legacy-sql-vs-standard-sql.md)
   * [Hello, BigQuery](bigquery/hello-bigquery.md)
   * [Simple SELECT Query](bigquery/simple-select-query.md)
+  
