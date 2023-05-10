@@ -23,6 +23,3 @@ BigQuery Style Guide
 {% embed url="https://stackoverflow.com/users/19039920/jaytiger" %}
 Jaytiger on StackOverflow
 {% endembed %}
-
-#### Contact
-- 내용 관련 오류나 궁금하신 점은 `jaytiger.park 골뱅이 지메일 닷컴` 으로 연락 부탁드립니다.
