@@ -21,6 +21,8 @@
     * [Struct 로 Record 만들기](bigquery-1/array-and-struct/struct-record.md)
     * [Array with Records](bigquery-1/array-and-struct/array-with-records.md)
     * [Flattening Array](bigquery-1/array-and-struct/flattening-array.md)
+    * [Example - Working with UNNEST()](bigquery-1/array-and-struct/example-working-with-unnest.md)
+    * [Example - Querying Nested Arrays](bigquery-1/array-and-struct/example-querying-nested-arrays.md)
   * [JSON in BigQuery](bigquery-1/json-in-bigquery/README.md)
     * [What is JSON](bigquery-1/json-in-bigquery/what-is-json.md)
     * [JSON 예시](bigquery-1/json-in-bigquery/json.md)
