@@ -35,3 +35,5 @@
     * [JSON Examples](bigquery-1/json-in-bigquery/json-examples.md)
     * [JSON Type-casting](bigquery-1/json-in-bigquery/json-type-casting.md)
     * [(Legacy) JSON Functions](bigquery-1/json-in-bigquery/legacy-json-functions.md)
+* [BigQuery 함수](functions/README.md)
+  * [날짜 시간 다루기](functions/timestamp.md)
