@@ -1,8 +1,6 @@
 # 날짜 및 시간 표현하기
 
-## TIME, DATE and DATETIME
-
-#### ■ 시간(Time) 표현하기
+## ■ 시간(Time) 표현하기
 
 시간을 상수(리터럴, literal)로 표현하는 방법은 다음과 같습니다.  표준 시간 형식(Cannonical Time Format) 앞에 `TIME` 키워드를 붙여줍니다.
 
@@ -30,7 +28,7 @@ SELECT CURRENT_TIME() current_time_utc,
 +------------------+-----------------------+
 ```
 
-#### ■ 시간(Time)으로 변환하기
+## ■ 시간(Time)으로 변환하기
 
 전처리하는 과정에서 다양한 형식으로 표현된 시간(Time) 데이터를 만나게 됩니다.
 
@@ -94,7 +92,7 @@ SELECT SAFE.PARSE_TIME('%I:%M:%S %p', '14:30:50 AM');
 +--------+
 ```
 
-#### ■ 시간(Time) 정보 활용하기
+## ■ 시간(Time) 정보 활용하기
 
 `TIME` 형식으로 변환된 데이터는 `TIME` 형식에 정의된 여러가지 함수를 사용할 수 있습니다.  `TIME` 형식 뿐만 아니라 `DATE`, `DATETIME`과 `TIMESTAMP` 형식에도 공통적으로 다음의 함수들이 정의되어 있습니다.
 
@@ -108,7 +106,7 @@ SELECT SAFE.PARSE_TIME('%I:%M:%S %p', '14:30:50 AM');
   - `TIME_TRUNC` - 시간의 해상도를 조절하여 정규화 시킴
 
 
-##### ▷ 추출 함수
+### ▷ 추출 함수
 
 `EXTRCT()` 추출 함수는 시간의 구성요소 중 한 부분(part)를 분리하는데 사용됩니다.  시간은 `HOUR`, `MINUTE`, `SECOND` 등으로 구성되는데 이를 개별적으로 추출해서 연산에 활용할 수 있습니다.
 
@@ -122,7 +120,7 @@ SELECT EXTRACT(HOUR FROM TIME '15:30:00') hour;
 +------+
 ```
 
-##### ▷ 시간(Time) 연산
+### ▷ 시간(Time) 연산
 
 날짜 시간 형식의 덧셈에서 다음의 문장을 생각해 봅시다.
 
@@ -159,7 +157,7 @@ SELECT TIME '15:30:00' original_time,
 
 ----
 
-##### ▷ 시간(Time) 절단
+### ▷ 시간(Time) 절단
 
 `DATE_TRUNC()` 함수는 시간의 해상도(resolution or granularity)를 낮추는 목적으로 사용됩니다.
 
