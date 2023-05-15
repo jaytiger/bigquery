@@ -31,4 +31,10 @@ SELECT station_id, name
 
 또 다른 예시를 하나 살펴보겠습니다.  결과 테이블이 만들어 지는 순서와 쿼리를 읽어 나가는 순서는 동일합니다.  여기서도 `FROM` 절에 기술된 `emp` 자재창고에서 `WHERE` 절에 기술된 조건을 만족하는 자재(row) 만을 `SELECT` 절에 넘겨 `ename`, `sal`, `job` 을 추출하도록 문장이 작성되어 있습니다.
 
+```sql
+SELECT ename, sal, job
+  FROM emp
+ WHERE job = 'SALESMAN' AND sal < 1500;
+ ```
+ 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
