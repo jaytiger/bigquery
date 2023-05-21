@@ -39,3 +39,9 @@
   * [날짜와 시간 다루기](functions/timestamp_intro.md)
     * [TIME 형식](functions/time.md)
     * [DATE 형식](functions/date.md)
+* [[부록] BigQuery Hands-On (outdated)](hands-on/README.md)
+  * [#1 - Kaggle Data Survey](hands-on/kaggle_survey_analysis.md)
+  * [#2 - Z Chart Analysis](hands-on/z_chart_analysis.md)
+  * [#3 - Fan Chart Analysis](hands-on/fan_chart_analysis.md)
+  * [#4 - ABC Analysis](hands-on/abc_analysis.md)****
+

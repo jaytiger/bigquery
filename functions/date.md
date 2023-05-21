@@ -31,10 +31,8 @@ SELECT CURRENT_DATE() current_date_utc,
 ## ■ 날짜 형식으로 변환하기
 
 날짜 표기는 국가 혹은 문화권에 따라 다양합니다. `년/월/일`의 순서를 사용하기도 하고, `월/일/년` 혹은 `일/월/년`이 되기도 합니다.  
-또한 구분자도 `/`, `-`, `.` 이나 공백 등 여러가지를 사용합니다.
-
-- https://en.wikipedia.org/wiki/Date_format_by_country  
-  (참고 - Wikipedia 국가별 날짜 형식)
+또한 구분자도 `/`, `-`, `.` 이나 공백 등 여러가지를 사용합니다.  
+(참고 - Wikipedia [Date format by country](https://en.wikipedia.org/wiki/Date_format_by_country))
 
 - `12 May 2023`
 - `12/05/23`
