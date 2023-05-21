@@ -38,3 +38,4 @@
 * [BigQuery 함수](functions/README.md)
   * [날짜와 시간 다루기](functions/timestamp_intro.md)
     * [TIME 형식](functions/time.md)
+    * [DATE 형식](functions/date.md)
